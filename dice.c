@@ -32,9 +32,9 @@ int main(){
 
   printf("total value: %d\n",sum);
 
-  if(sum >= 8)printf("You won!\n");
+  if(sum >= 8)printf("%s won!\n",name);
 
-  else printf("You lost!\n");
+  else printf("%s lost!\n",name);
 
   return 0;
 
