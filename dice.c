@@ -8,7 +8,15 @@ int main(){
 
   int sum=0;
 
+  char name[10];
+
   srand(time(NULL));
+
+  printf("What is your name?\n>");
+
+  scanf("%s",name);
+
+  printf("Hello,%s\n",name);
   
   printf("Rolling dice...\n");
 
