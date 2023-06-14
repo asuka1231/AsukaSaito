@@ -24,6 +24,10 @@ int main(){
 
   printf("total value: %d\n",sum);
 
+  if(sum >= 8)printf("You won!\n");
+
+  else printf("You lost!\n");
+
   return 0;
 
 }
